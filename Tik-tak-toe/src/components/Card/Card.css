@@ -1,0 +1,21 @@
+.card{
+    border: 1px solid black;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90px;
+    height: 90px;
+    border-radius: 10px;
+    background-color: var(--yello);
+
+}
+@media screen and (max-width:768px){
+    .card{
+        width: 60px;
+        height: 60px;
+    }
+   
+
+
+}
